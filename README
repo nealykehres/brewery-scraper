@@ -1,5 +1,0 @@
-So far, I have use Selenium to load the page to the point I need it to be at so I can scrape it. Or at least I think so. You will see all that in the python file. 
-Now, I am ready to use BeautifulSoup. If you inspect the page (https://www.brewersassociation.org/directories/breweries/), you can see that all of the breweries are in their own divs with the class "brewery. All of those divs are within a div with the ID "ajax-content". That div is within a div with the class "entry'.
-Unfortunately, when I go to scrape with any of that information, it doesn't yield any results. The python file I uploaded scrapes the div ID "ajax-content", which when tested in terminal, yields this line: 
-<div class="with-results" id="ajax-content"><!--Dynamically Filled in--></div>
-When I inspect the page, and look at the page, all of the breweries are visible. Am I missing another step in selenium that would make the content visible to the scraper? Is this site impossible to scrape? :( Please help.
